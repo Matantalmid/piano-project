@@ -1,0 +1,85 @@
+body{
+    background-color: blueviolet;
+}
+
+.container-piano{
+    position: relative;
+    top: 300px;
+    transform: rotate(90deg);
+}
+
+.white-chords-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+
+}
+
+.white-chords{
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 7px 0px 5px rgba(0, 0, 0, 0.55);
+    margin: 1px;
+}
+
+.white-chords:hover{
+    box-shadow: inset 0px 0px 15px rgb(0, 0, 0);
+    background-image: linear-gradient(to right, red 25%, orange 50%, blue 75%);
+}
+
+.p-chords-container{
+    display: flex;
+}
+
+.p-chords-container p{
+    transform: rotate(-90deg);
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+.p-chords-container:hover{
+    color: blue;
+}
+
+.black-chords-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-84%, -50%);
+    width: 180px;
+    height: 550px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.black-chords{
+    width: 180px;
+    height: 35px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 8px 0px 5px rgba(0, 0, 0, 0.55);
+    margin:10px 0px 20px 1px;
+}
+
+.black-chords:hover{
+    box-shadow: 4px 0px 5px rgba(0, 0, 0, 0.55);
+}
+
+#last-chord{
+    margin-bottom: 10px;
+}
+
+#first-chord{
+    margin-top: 10px;
+}
+
