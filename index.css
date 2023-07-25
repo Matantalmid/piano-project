@@ -23,12 +23,12 @@ body{
     background-color: #fff;
     border-radius: 10px;
     border: 2px solid black;
-    box-shadow: 7px 0px 5px rgba(0, 0, 0, 0.55);
+    box-shadow: 8px 0px 5px rgba(0, 0, 0, 0.55);
     margin: 1px;
 }
 
 .white-chords:hover{
-    box-shadow: inset 0px 0px 15px rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 15px rgb(0, 0, 0), 4px 0px 5px rgba(0, 0, 0, 0.55);
     background-image: linear-gradient(to right, red 25%, orange 50%, blue 75%);
 }
 
@@ -47,7 +47,7 @@ body{
 
 }
 
-.p-chords-container:hover p{
+.white-chords:hover + p{
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
@@ -77,7 +77,7 @@ body{
 }
 
 .black-chords:hover{
-    box-shadow: 4px 0px 5px rgba(0, 0, 0, 0.55);
+    box-shadow: 4px 0px 5px rgba(0, 0, 0, 0.55), inset 0px 0px 15px rgba(255, 255, 255, 0.493);
 }
 
 #last-chord{
