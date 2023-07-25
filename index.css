@@ -34,17 +34,22 @@ body{
 
 .p-chords-container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
 }
 
 .p-chords-container p{
-    transform: rotate(-90deg);
     font-size: 20px;
     margin: 0;
-    color: #fff;
+    color: blueviolet;
+    transform: rotate(-90deg);
+
 }
 
-.p-chords-container:hover{
-    color: blue;
+.p-chords-container:hover p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 .black-chords-container{
