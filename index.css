@@ -69,7 +69,7 @@ body{
 .black-chords{
     width: 180px;
     height: 35px;
-    background-color: #000000;
+    background: linear-gradient(to left ,#000000 85% , #a1a1a1 100% );
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: 8px 0px 5px rgba(0, 0, 0, 0.55);
